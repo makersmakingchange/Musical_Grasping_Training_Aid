@@ -1,8 +1,20 @@
-Version X.Y.Z | YYYY-mmm-DD
- - Initial Prototype
- - <SUMMARIZE KEY FEATURES>
+Version 1.0 | 2024-Sep-16
+ - Added a skip song and volume button
+ - Added battery compartment to allow for battery replacement
+ - Added slot to access microSD and update/change music files
+ - Updated software to incorporate volume and skip song buttons
+ - Redesigned the CAD to accomodate updated user interface
+ - Created and updated standard MMC documentation
 
 
-
-
-
+Version 0.3 | 
+ - Initial Device
+	- On/Off Switch
+	- Speaker
+	- Adafruit QT Py SAMD21 Microcontroller
+	- Adafruit MPR121 Capacitive Touch Sensor
+	- DFRobot DFPlayer Mini 
+	- 4 AAA Batteries (sealed inside device)
+	- microSD card (sealed inside device)
+ - Starts playing first song when grasped and pauses when let go
+ - Song uploaded during assembly and cannot be changed
