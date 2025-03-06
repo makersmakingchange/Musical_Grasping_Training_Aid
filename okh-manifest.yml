@@ -1,0 +1,63 @@
+title: Musical Grasping Training Aid
+description: "A handheld, tube-shaped assistive device that plays music when grasped. "
+intended-use: Encourages individuals with neurodevelopmental disorders to use their hands to
+  learn cause and effect through grasp-activated musical play.
+keywords:
+  - openAT
+  - disability
+  - accessibility
+project-link: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid
+image: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid/blob/main/Photos/Musical_Grasping_Training_Aid.jpg
+made: true
+made-independently: false
+license:
+  hardware: CERN-OHL-W-2.0
+  documentation: CC-BY-SA-4.0
+  software: GPL-3.0-or-later
+licensor:
+  name: Jacob McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+okh-manifest-version: 1.0.0
+date-created: 2025-03-06
+date-updated: 2025-03-06
+manifest-author:
+  name: Jacob McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+manifest-language: en-CA
+contact:
+  name: Maker Making Change
+  affiliation: Neil Squire Society
+  email: info@makersmakingchange.com
+  social:
+    - platform: Instagram
+      user-handle: "@makermakingchange"
+contributors:
+  - name: Didi Dimitrova
+    affiliation: Neil Squire Society
+    email: didi@neilsquire.ca
+  - name: Derrick Andrews
+    affiliation: Neil Squire Society
+    email: derricka@neilsquire.ca
+  - name: Stephan Dobri
+    affiliation: Neil Squire Society
+    email: stephand@neilsquire.ca
+  - name: Brad Wellington
+    affiliation: Neil Squire Society
+    email: bradw@neilsquire.ca
+  - name: Jacob McIvor
+    affiliation: Neil Squire Society
+    email: jakem@neilsquire.ca
+version: "1.0"
+development-stage: product
+documentation-home: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid
+archive-download: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid/archive/refs/heads/main.zip
+design-files:
+  - path: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid/tree/main/Design_Files
+    title: Design Files
+documentation-language: en-CA
+bom: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid/blob/main/Documentation/Musical_Grasping_Training_Aid_BOM.csv
+operating-instructions:
+  - path: https://github.com/makersmakingchange/Musical_Grasping_Training_Aid/blob/main/Documentation/Musical_Grasping_Training_Aid_User_Guide.pdf
+    title: User Guide
