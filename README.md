@@ -1,6 +1,4 @@
- 
 # Musical Grasping Training Aid
-
 
 ## Overview
 
@@ -12,10 +10,10 @@ The Musical Grasping Training Aid is open assistive technology (OpenAT). Under t
 
 The overall cost of materials is about $90 (plus $5 for component shipping).
 
-<img src="Photos/Musical_Grasping_Training_Aid.jpg" width="500" alt="Picture of Musical Grasping Training Aid.">
+<img src="Photos/Musical_Grasping_Training_Aid.jpg" height="250" alt="Picture of Musical Grasping Training Aid.">
 
 ## Makers Making Change Assistive Device Library
-<MMCWebLink>
+ - https://www.makersmakingchange.com/s/product/musical-grasping-training-aid/01tJR000007kNIXYA2
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -24,7 +22,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/musical-grasping-training-aid/01tJR000007kNIXYA2) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -102,8 +100,9 @@ The documentation template was created by Makers Making Change / Neil Squire Soc
  - Jake McIvor
 
 
----
+----
 
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
@@ -121,3 +120,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->
