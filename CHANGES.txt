@@ -1,9 +1,12 @@
+Version 1.1 | 2025-Dec-18
+ - Modified firmware to explicitly enable automatic calibration after sensor library change.
+
 Version 1.0 | 2024-Sep-16
  - Added a skip song and volume button
  - Added battery compartment to allow for battery replacement
  - Added slot to access microSD and update/change music files
  - Updated software to incorporate volume and skip song buttons
- - Redesigned the CAD to accomodate updated user interface
+ - Redesigned the CAD to accommodate updated user interface
  - Created and updated standard MMC documentation
 
 
