@@ -20,27 +20,27 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#include <DFRobotDFPlayerMini.h>  //MP3 reader library
-#include "Adafruit_MPR121.h"      //Capacitive Touch Sensor library
+#include <DFRobotDFPlayerMini.h>  // MP3 reader library
+#include "Adafruit_MPR121.h"      // Capacitive Touch Sensor library
 
 #ifndef _BV
 #define _BV(bit) (1 << (bit))
 #endif
 
-DFRobotDFPlayerMini myDFPlayer;           //Create  DFPlayer object
-Adafruit_MPR121 cap = Adafruit_MPR121();  //Create MPR121 object
+DFRobotDFPlayerMini myDFPlayer;           // Create  DFPlayer object
+Adafruit_MPR121 cap = Adafruit_MPR121();  // Create MPR121 object
 
-uint16_t currtouched = 0;  //Variable to store capacitance value from MPR121
+uint16_t currtouched = 0;  // Variable to store capacitance value from MPR121
 
 const int buttonPin1 = A0;  // Pin for pushbutton 1
 const int buttonPin2 = A1;  // Pin for pushbutton 2
 
 const int presetVolumes[] = { 5, 8, 11, 14, 17, 20 };  // Preset volume levels
 int currentVolumeIndex = 0;                            // Volume index counter
-int currentSongIndex = 0;                              //Song index counter
+int currentSongIndex = 0;                              // Song index counter
 
-int buttonState1 = 0;  //Variable to store button 1 state
-int buttonState2 = 0;  //Variable to store button 2 state
+int buttonState1 = 0;  // Variable to store button 1 state
+int buttonState2 = 0;  // Variable to store button 2 state
 
 void setup() {
 
@@ -52,8 +52,8 @@ void setup() {
 
   //Wire.begin(); //Initialize I2C communication
 
-  Serial1.begin(9600);        //Setup Serial1 communication; baud rate is 9600 bps
-  while (!Serial) delay(10);  //Wait for Serial1 to initialize
+  Serial1.begin(9600);        // Setup Serial1 communication; baud rate is 9600 bps
+  while (!Serial) delay(10);  // Wait for Serial1 to initialize
   //---MPR121 Capacitive Touch Sensor Test----
   Serial.println("Adafruit MPR121 Capacitive Touch Sensor Test");
 
@@ -66,6 +66,7 @@ void setup() {
       ;
   }
   Serial.println("MPR121 found!");
+  cap.setAutoconfig(true);  // Enable auto calibration for capacitive sensor
 
   //---DFPlayer Test----
   Serial.println("DFRobot DFPlayer Test");
